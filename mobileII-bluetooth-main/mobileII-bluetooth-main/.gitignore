@@ -1,0 +1,92 @@
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code: mantenha comentado se quiser versionar launch/tasks do time.
+# .vscode/
+
+# Dart, Flutter e Pub
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub/
+**/.pub-cache/
+**/build/
+**/coverage/
+**/doc/api/
+
+# Arquivos locais gerados pelo Flutter
+**/.metadata
+**/migrate_working_dir/
+
+# Nao ignorar lockfiles dos apps.
+!app/pubspec.lock
+!desktop/pubspec.lock
+
+# Android do app mobile
+app/android/.gradle/
+app/android/.cxx/
+app/android/captures/
+app/android/local.properties
+app/android/key.properties
+app/android/**/*.keystore
+app/android/**/*.jks
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+
+# Manter o Gradle wrapper versionado para reproducibilidade.
+!app/android/gradle/wrapper/gradle-wrapper.jar
+!app/android/gradlew
+!app/android/gradlew.bat
+
+# iOS/macOS, caso essas plataformas sejam adicionadas depois
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Runner.xcworkspace/
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Pods/
+
+# Windows desktop gerado pelo Flutter/CMake/Visual Studio
+desktop/windows/flutter/ephemeral/
+desktop/windows/**/CMakeFiles/
+desktop/windows/**/CMakeCache.txt
+desktop/windows/**/cmake_install.cmake
+desktop/windows/**/Makefile
+desktop/windows/**/*.suo
+desktop/windows/**/*.user
+desktop/windows/**/*.userosscache
+desktop/windows/**/*.sln.docstates
+desktop/windows/**/x64/
+desktop/windows/**/x86/
+desktop/windows/**/Debug/
+desktop/windows/**/Release/
+desktop/windows/**/RelWithDebInfo/
+desktop/windows/**/MinSizeRel/
+
+# Linux desktop, caso seja gerado depois
+desktop/linux/flutter/ephemeral/
+
+# Artefatos de release e debug
+*.apk
+*.aab
+*.ipa
+*.app
+*.app.dSYM/
+*.symbols
+*.map.json
